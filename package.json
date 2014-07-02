@@ -1,0 +1,70 @@
+{
+    "name": "Domino Data",
+    "type": "code",
+    "creator": "anonymous",
+    "summary": "Short summary",
+    "detailedDescription": "Long description of package",
+    "version": "1.0.0",
+    "compatVersion": "1.0.0",
+    "format": "1",
+    "local": true,
+    "architect": {
+           "compatFrameworks": [
+                "touch20",
+                "touch21",
+                "touch22",
+                "touch23"
+           ],
+           "classes": [
+              {
+                 "className": "Domino.data.reader.ViewReader",
+                 "definition": "ViewReader.Definition.js",
+                 "js": [
+                     "data/reader/ViewReader.js"
+                 ],
+                 "css": []
+               },
+              {
+                 "className": "Domino.data.reader.iNamesReader",
+                 "definition": "iNamesReader.Definition.js",
+                 "js": [
+                     "data/reader/iNamesReader.js"
+                 ],
+                 "css": []
+               },
+               {
+                 "className": "Domino.data.proxy.iNotes",
+                 "definition": "INotesProxy.Definition.js",
+                 "js": [
+                     "data/proxy/iNotes.js"
+                 ],
+                 "css": []
+               },
+               {
+                 "className": "Domino.picker.ListPicker",
+                 "definition": "picker/ListPicker.Definition.js",
+                 "js": [
+                     "picker/ListPicker.js"
+                 ],
+                 "css": []
+               },
+               {
+                 "className": "Domino.picker.UsersPicker",
+                 "definition": "picker/UsersPicker.Definition.js",
+                 "js": [
+                     "picker/UsersPicker.js"
+                 ],
+                 "css": []
+               },
+               {
+                 "className": "Domino.field.UsersPicker",
+                 "definition": "field/UsersPicker.Definition.js",
+                 "js": [
+                     "field/UsersPicker.js"
+                 ],
+                 "css": []
+               }
+           ]
+       },
+    "requires": []
+}
